@@ -77,7 +77,7 @@ var config = {
     // Time apart (remainder)
     var tRemainder = diffTime % trainFrequency;
 
-    // Minute Until Train
+    // Minutes Until Train
     var tMinutesTillTrain = trainFrequency - tRemainder;
 
     // Next Train
